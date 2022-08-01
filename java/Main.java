@@ -1,7 +1,7 @@
 public class Main {
 	public static void main(String[] args) {
-		Test test = new Test();
-		test.call();
+		new Test().call();
+		new Test2().call();
 		System.out.println("Hello world!");
 	}
 }
