@@ -1,5 +1,5 @@
 component 0 size changed to 10
-[10]Hi
+[10]H
 [1]<ParagraphEnd>
 [12]nice
 [12]to
