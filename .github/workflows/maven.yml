@@ -14,4 +14,4 @@ jobs:
           distribution: 'temurin'
           architecture: x64
       - name: Run the Maven
-        run: javac "cd *\*\java\Test\Main.java"
+        run: javac "Main.java"
