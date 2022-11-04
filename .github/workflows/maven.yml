@@ -15,6 +15,6 @@ jobs:
           architecture: x64
       - name: Run the Maven
         run: |
-          cd "../../Java/Test"
+          cd ".\java\Test"
           javac Main.java
           java Main
