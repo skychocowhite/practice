@@ -1,11 +1,11 @@
-name Java CI
+name: name Java CI
 
 on: [push]
 
 jobs:
-  build:
-    runs-on: windows-latest
-    steps:
+	build:
+		runs-on: windows-latest
+		steps:
 			- uses: actions/checkout@v3
 			- name: Set up JDK
 			  uses: actions/setup-java@v3
