@@ -14,4 +14,4 @@ jobs:
           distribution: 'temurin'
           architecture: x64
       - name: Run the Maven
-				run: java Test.java
+        run: java Test.java
