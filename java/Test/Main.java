@@ -7,5 +7,7 @@ public class Main {
 		List<String> list = new ArrayList<>();
 		list.add("String a");
 		list.add("String b");
+		list.add("String z");
+		System.out.println(list);
 	}
 }
