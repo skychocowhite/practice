@@ -4,13 +4,13 @@ on: [push]
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: [windows-latest, macos-latest]
     steps:
       - uses: actions/checkout@v3
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          java-version: '17'
+          java-version: '8'
           distribution: 'temurin'
           architecture: x64
       - name: Run the Maven
