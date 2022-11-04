@@ -1,7 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 	public static void main(String[] args) {
-		new Test().call();
-		new Test2().call();
 		System.out.println("Hello world!");
+		List<String> list = new ArrayList<>();
+		list.add("String a");
+		list.add("String b");
+		list.add("String z");
+		System.out.println(list);
 	}
 }
