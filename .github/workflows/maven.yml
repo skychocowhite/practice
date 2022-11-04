@@ -15,4 +15,5 @@ jobs:
           architecture: x64
       - name: Run the Maven
         run: |
-          .\playground\Homework1\testcase\test.ps1
+          cd .\playground\Homework1\testcase
+          .\test.ps1
